@@ -16,7 +16,7 @@
     "require": {
         "hhvm": "^4.25",
         "hhvm/hsl": "^4.25",
-        "nuxed/contract": "^0.2",
+        "nuxed/contract": "^0.3",
         "hhvm/type-assert": "^3.6",
         "nuxed/filesystem": "^1.2",
         "nuxed/json": "^1.0"
