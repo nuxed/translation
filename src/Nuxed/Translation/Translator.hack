@@ -25,9 +25,9 @@ class Translator
    */
   public function __construct(
     ?string $locale = null,
-    ?Formatter\IMessageFormatter $_formatter = null,
+    ?Formatter\IMessageFormatter $formatter = null,
   ) {
-    $this->formatter = new Formatter\MessageFormatter();
+    $this->formatter = $formatter ?? new Formatter\MessageFormatter();
     $this->setLocale($locale ?? \Locale::getDefault());
   }
 
